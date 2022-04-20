@@ -65,7 +65,7 @@
                         <div class="col-lg-2 col-md-4 col-sm-6 ">
                             <div>
                                 <ul class="category-menu" id="category">
-                                    sdklfksjfk
+                                   
                                     <li>
                                         <h2  class="title py-3 "> Shop by department</h2>
                                         <ul class="category-items">
@@ -113,6 +113,23 @@
             </div>
             
         </header>
+        <!-- mobile category menu div start  -->
+        <div class="mobile-category-menu">
+            <ul class="category-mobile-menu">
+                <h4>Shop by department</h4>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+                <li><a href="#">Gadget accessories</a></li>
+            </ul>
+        </div>
+        <!-- Mobile category menu div end -->
 
 
         
@@ -811,6 +828,7 @@
 
 
         <!-- Mobile menu html code -->
+        
         <div class="mobile-menu-res" >
             <div class="mobile-menu " >
                 
@@ -822,7 +840,7 @@
                         <p>Home</p>
                     </div>
                 </a>
-                <a onclick="cate()">
+                <a onclick="cate(this)" id="sjdksjf">
                     <div>
                         <div class="text-center">
                             <img src="asset/img/menu-icon/categories-b-30x32-px.png" alt="">
@@ -883,10 +901,12 @@
             })
 
 
-            function cate(){
-                var category = document.getElementById('category');
-                category.classList.add('catego')
+            function cate(e){
+                var category = document.querySelector('.category-mobile-menu');
+                category.classList.toggle('mobile-min-wid');
             }
+
+           
         </script>
 
     </body>

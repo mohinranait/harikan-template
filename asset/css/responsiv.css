@@ -32,5 +32,50 @@
     }
     .mobile-menu-res{
         display: block;
+        z-index: 999999 !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
+
+
+
+    .mobile-category-menu{
+       display: block;
+        position: relative;
+        z-index: 9999;
+    
+    }
+    .mobile-category-menu ul{
+        overflow-y: auto;
+        position: fixed;
+        background: white;
+        width: 0%;
+        height: 88vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block !important;
+        transition: .5s ;
+    }
+    .mobile-category-menu ul li{
+        padding: 0px 20px;
+    }
+    .mobile-category-menu ul h4{
+        padding: 10px;
+        background: #70C332;
+        color: white;
+    }
+    .mobile-category-menu ul a{
+        display: block;
+        color: black;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .mobile-min-wid{
+        width: 100% !important;
+    }
+    
+   
 }

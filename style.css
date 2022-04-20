@@ -162,6 +162,7 @@ img{
     font-size: 16px;
 
 }
+
 /* =============================== warpper section ======================================= */
 .icon-card div{
     padding-left: 7px;
@@ -228,6 +229,14 @@ img{
     display: none;
 }
 
+/* mobile menu  */
+
+.mobile-category-menu{
+    display: none;
+    position: relative;
+    z-index: 9999;
+
+}
 /* ======================================== Category section ================================= */
 
 
