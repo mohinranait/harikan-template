@@ -378,3 +378,192 @@ form aside div input.form-width-control:focus {
     box-shadow: 0px 1px 1px #70C332;
     
 }
+
+/* ================================================ Product ======================================== */
+.about-product-div{
+
+}
+.about-product-div h1{
+    font-size: 23px;
+    color: black;
+    margin-bottom: 15px;
+}
+.about-product-div .about-brand span{
+    font-weight: bold;
+}
+.about-product-div .product-review{
+    display: flex;
+}
+.about-product-div .product-review li a i{
+    font-size: 13px;
+    margin-right: 2px;
+    color: #F9B400;
+}
+.review-counter a{
+    color: black;
+    font-size: 13px;
+}
+.share-wishlist a{
+    padding: 0px 8px;
+    background: #0d6efd;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+.share-wishlist a i.fa-facebook{
+   margin-right: 5px;
+}
+.share-wishlist form button{
+    background: transparent;
+    border: none;
+}
+ i.fa-heart.form-heart{
+    font-size: 22px;
+    color: #70C332;
+}
+.sell-price{
+    
+}
+.sell-price .product-price{
+    font-size: 25px;
+    font-weight: bold;
+    color: #70C332;
+}
+.sell-price .del-proce del{
+    font-size: 12px;
+    color: black !important;
+}
+.sell-price .del-proce{
+    font-size: 12px;
+    color: #DB230C;
+}
+
+.about-product-div .product-code span{
+    font-weight: bold;
+}
+.about-product-div .product-code{
+
+}
+.addToCardBtn{
+    padding: 10px 20px;
+    border: 1px solid #DDDDDD;
+    font-size: 22px;
+    background: transparent;
+}
+.addToCardBtn:hover{
+    background: #DDDDDD;
+}
+.quintitybtn:focus{
+    border: none;
+    outline: none;
+}
+.quintitybtn{
+    width: 100px;
+}
+.quintitybtn:hover{
+    background: transparent !important;
+}
+.adToCard {
+    display: flex;
+}
+.adToCard .carbtn{
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+}
+.adToCard .carbtn.btn1{
+    background: #DB230C;
+}
+.adToCard .carbtn.btn2{
+    background: #70C332;
+}
+.product-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.product-slider img{
+    width: 100px;
+}
+
+
+.delevery-option{
+    background: #EBF1E6;
+    padding: 13px;
+    border-radius: 1px;
+}
+.delevery-option h4{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.delevery-option ul{}
+.delevery-option ul li{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+}
+.delevery-option ul li i{
+    color: #70C332;
+    margin-right: 8px;
+}
+
+.review-div-tab {
+    padding: 20px;
+}
+.review-div-tab h4{
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+.review-items span i{
+    font-size: 13px;
+    color: #F9B400;
+}
+.user-img-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.user-img-name p{
+    font: 18px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+.user-porofile-img img{
+    width: 40px;
+}
+.review-verify{
+    display: flex;
+    align-items: center;
+}
+.review-verify img{
+    width: 20px;
+}
+.review-verify span{
+    font-size: 11px;
+    color: #70C332;
+}
+p.item-details{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.tab-pane {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.nav-link:focus, .nav-link {
+    color: black;
+    font-weight:bold;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #FCB800;
+    font-weight:bold;
+}
